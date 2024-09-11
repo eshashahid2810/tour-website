@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <title>Tour Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!--Header-->
+  <div class="header">
+    <div class="container-fluid px-0">
+      <div class="row gx-0">
+        <div class="col-lg-2 d-flex align-items-center">
+          <a class="navbar-brand w-100 h-100 p-0 d-flex justify-content-center align-items-center " href="#">
+            <img src="images/logo.jpeg" class="img-fluid img_logo" alt="LOGO">
+          </a>
+        </div>
+        <div class="col-lg-10">
+          <div class="row gx-0 bg-white d-lg-flex d-none">
+            <div class="col-lg-7 px-4 text-start">
+              <div class="top_navbar">
+                <i class="fa-solid icon_topnavbar fa-envelope"></i>
+                <p class="para_top_navbar mb-0">hafizaeshashahid2810@gmail.com</p>
+              </div>
+              <div class="top_navbar">
+                <i class="fa-solid icon_topnavbar fa-phone"></i>
+                <p class="para_top_navbar mb-0">+92 300 32456</p>
+              </div>
+            </div>
+            <div class="col-lg-5 px-0 text-end pt-2">
+              <div class="top_navbarr">
+                <a href="#"><i class="fab icon_top_navbar fa-twitter"></i></a>
+                <a href="#"><i class="fab icon_top_navbar fa-facebook"></i></a>
+                <a href="#"><i class="fab icon_top_navbar fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab icon_top_navbar fa-instagram"></i></a>
+                <a href="#"><i class="fab icon_top_navbar fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <nav class="navbar navbar-expand-lg justify-content-center navbar-dark p-3 p-lg-0">
+            <!--navbar-dark p-3 p-lg-0 -->
+            <div class="container-fluid px-0">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto py-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home-section" style="color: white;">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#destination">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ROOMS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      PAGES
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">-Booking</a></li>
+                      <li><a class="dropdown-item" href="#">-About</a></li>
+                      <li><a class="dropdown-item" href="#">-Out Team</a></li>
+                      <li><a class="dropdown-item" href="#">-Testimonials</a></li>
+                      <li><a class="dropdown-item" href="#">-Out Hotels</a></li>
+                      <li><a class="dropdown-item" href="#">-Rooms</a></li>
+                      <li><a class="dropdown-item" href="#">-Contact</a></li>
+                      <li><a class="dropdown-item border-0" href="#">-Offers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer_area">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn_navbar py-3 px-md-4 d-lg-block d-none ">Premium version <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Header-->
+  <!--Carousel-->
+  <div id="home-section">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="content_home img-1">
+            <div class="text_content_home">
+              <h6 class="section_title text-white mb-3">LUXURY LIVING</h6>
+              <h1 class="heading_home text-white mb-4">TRAVEL TO MALDIVES</h1>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 me-3">DISCOVER NOW</a>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 bg-light">BOOK A ROOM</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="content_home img-2">
+            <div class="text_content_home">
+              <h6 class="section_title text-white mb-3">ADVENTURE AWAITS</h6>
+              <h2 class="heading_home text-white mb-4">DISCOVER SWISS ALPS</h2>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 me-3">DISCOVER NOW</a>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 bg-light">BOOK A ROOM</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="content_home img-3">
+            <div class="text_content_home">
+              <h6 class="section_title text-white mb-3">TROPICAL PARADISE</h6>
+              <h1 class="heading_home text-white mb-4">EXPLORE BORA BORA</h1>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 me-3">DISCOVER NOW</a>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 bg-light">BOOK A ROOM</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="content_home img-4">
+            <div class="text_content_home">
+              <h6 class="section_title text-white mb-3">ESCAPE TO SERENITY</h6>
+              <h1 class="heading_home text-white mb-4">RELAX IN BALI</h1>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 me-3">DISCOVER NOW</a>
+              <a href="#" class="btn btn_home_content py-md-3 px-md-5 bg-light">BOOK A ROOM</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="slider_icon"><i class="fa fa-arrow-left"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="slider_icon"><i class="fa fa-arrow-right"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--Carousel-->
+  <div class="hotel_search_form_container container">
+    <div class="hotel_search_form_content">
+      <div class="container-fluid">
+        <div class="hotel_search_form">
+          <form action="">
+            <div class="container">
+              <div class="row container_form">
+                <div class="col-lg-3 col-6 my-2">
+                  <label for="check-in">Check in</label>
+                  <input type="date" class="input_form" id="check-in">
+                </div>
+                <div class="col-lg-3 col-6 my-2">
+                  <label for="check-out">Check out</label>
+                  <input type="date" class="input_form" id="check-out">
+                </div>
+                <div class="col-lg-3 col-10 my-2">
+                  <label for="place">Place</label>
+                  <input type="text" class="input_form" id="place" placeholder="Where to go ?">
+                </div>
+                <div class="col-lg-1 col-2 my-2">
+                  <label for="Rooms">Rooms</label>
+                  <select name="" class="input_form" id="Rooms">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                  </select>
+                </div>
+                <div class="col-lg-2 col-12 my-2">
+                  <label for="Availability">Availability</label>
+                  <button type="submit" class="input_btn_submit">Check Availability</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about_content">
+            <h6 class="about_title text-start">ABOUT US</h6>
+            <h2 class="heading_about text-start">Welcome To <br> Traverr Hotel Luxury</h2>
+            <p class="pra_about" style="font-size: small;">
+              At Traverr Hotel Luxury, we believe that travel is more than just a journey! it's an enriching experience.
+              Our hotels offer ultimate comfort and style in prime destinations worldwide, with warm hospitality and a
+              commitment to making your stay enjoyable. Discover luxurious accommodations, exquisite dining, and
+              personalized services tailored to your needs.
+            </p>
+            <h4 class="heading_sm">Manager : <span>Kreton Williamson</span></h4>
+
+            <div class="media_about_item">
+              <div class="row mt-4">
+                <div class="col-4">
+                  <div class="border rounded p-1">
+                    <div class="border rounded text-center py-2">
+                      <p class="about_item_icon"><i class="fa-solid fa-hotel"></i></p>
+                      <h5 class="about_items_heading">1600</h5>
+                      <p class="about_items_para">Rooms</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="border rounded p-1">
+                    <div class="border rounded text-center py-2">
+                      <p class="about_item_icon"><i class="fa-solid fa-hotel"></i></p>
+                      <h5 class="about_items_heading">2540</h5>
+                      <p class="about_items_para">Clients</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="border rounded p-1">
+                    <div class="border rounded text-center py-2">
+                      <p class="about_item_icon"><i class="fa-solid fa-hotel"></i></p>
+                      <h5 class="about_items_heading">92</h5>
+                      <p class="about_items_para">Hotels</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn_content_about">VIEW DETAILS</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 ">
+          <div class="images_container">
+            <div class="row p-2">
+              <div class="col-lg-6 col-6">
+                <div class="image_hotel_container">
+                  <div class="image_hotel_1"></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-6">
+                <div class="image_hotel_container">
+                  <div class="image_hotel_2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col-lg-6 col-6">
+                <div class="image_hotel_container">
+                  <div class="image_hotel_3"></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-6">
+                <div class="image_hotel_container">
+                  <div class="image_hotel_4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="service_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="service_container">
+            <div class="service_content">
+              <p class="icon_service"><i class="fa-solid fa-hotel"></i></p>
+              <h4 class="heading_services">Apartment</h4>
+            </div>
+            <div class="service_content">
+              <p class="icon_service"><i class="fa-solid fa-utensils"></i></p>
+              <h4 class="heading_services">Restaurent</h4>
+            </div>
+            <div class="service_content">
+              <p class="icon_service"><i class="fa-solid fa-person-swimming"></i></p>
+              <h4 class="heading_services">Swimming Pool</h4>
+            </div>
+            <div class="service_content">
+              <p class="icon_service"><i class="fa-solid fa-champagne-glasses"></i></p>
+              <h4 class="heading_services">Events Party</h4>
+            </div>
+            <div class="service_content">
+              <p class="icon_service"><i class="fa-solid fa-dumbbell"></i></p>
+              <h4 class="heading_services">Gym Yoga</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="destination">
+    <h3 class="section_heading display-6">Popular destinations in 2024</h3>
+    <p class="section__para">TAKE A LOOK AT THESE OFFERS</p>
+
+    <div class="container-fluid">
+      <div class="row m-lg-5 my-">
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-1">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">Italy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-2">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">Spain</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-3">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">Greece</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-4">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">New Zeeland</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-5">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">Thailand</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-6">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">Australia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-7">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">Maldives</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="content_destination image-8">
+            <div class="content_text_place">
+              <span class="tour_price">From : $520</span>
+              <p class="place">Russia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="testimonial_area">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators indicator_testimonials ">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="image_container img_testimonial_1">
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 my-4 my-sm-4">
+                  <div class="text_container_testimonials">
+                    <div class="section_heading-testimonials">
+                      <h6 class="heading_sm_testimonals"> TESTIMONIALS</h6>
+                      <h2 class="heading_testimonials">OUR GUESTS LOVE US</h2>
+                    </div>
+                    <div class="single_testimonials_slide">
+                      <p class="para_testimonials" style="font-size: medium;">Our guests continually praise their stay,
+                        highlighting the impeccable service and welcoming atmosphere. Each visit is tailored to
+                        perfection, ensuring a memorable experience. We pride ourselves on attention to detail and
+                        dedication to guest satisfaction, making every moment extraordinary.</p>
+                      <div class="rating_titles">
+                        <div class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6 class="member_name">Grecery Doez <span>- CEO SHOPMA</span> </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="image_container img_testimonial_2">
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 my-4 my-sm-4">
+                  <div class="text_container_testimonials">
+                    <div class="section_heading-testimonials">
+                      <h6 class="heading_sm_testimonals"> TESTIMONIALS</h6>
+                      <h2 class="heading_testimonials">OUR GUESTS LOVE US</h2>
+                    </div>
+                    <div class="single_testimonials_slide">
+                      <p class="para_testimonials" style="font-size: medium;">Our guests continually praise their stay,
+                        highlighting the impeccable service and welcoming atmosphere. Each visit is tailored to
+                        perfection, ensuring a memorable experience. We pride ourselves on attention to detail and
+                        dedication to guest satisfaction, making every moment extraordinary.</p>
+                      <div class="rating_titles">
+                        <div class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6 class="member_name">Grecery Doez <span>- CEO SHOPMA</span> </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="image_container img_testimonial_3">
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 my-4 my-sm-4">
+                  <div class="text_container_testimonials">
+                    <div class="section_heading-testimonials">
+                      <h6 class="heading_sm_testimonals"> TESTIMONIALS</h6>
+                      <h2 class="heading_testimonials">OUR GUESTS LOVE US</h2>
+                    </div>
+                    <div class="single_testimonials_slide">
+                      <p class="para_testimonials" style="font-size: medium;">Our guests continually praise their stay,
+                        highlighting the impeccable service and welcoming atmosphere. Each visit is tailored to
+                        perfection, ensuring a memorable experience. We pride ourselves on attention to detail and
+                        dedication to guest satisfaction, making every moment extraordinary.</p>
+                      <div class="rating_titles">
+                        <div class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h6 class="member_name">Grecery Doez <span>- CEO SHOPMA</span> </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <!--span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span-->
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <!--span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span-->
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="our_team">
+    <h6 class="heading_title">OUR TEAM</h6>
+    <h1 class="mb-5 heading_lg_title">Explore Our <span class="text-warning">Staffs</span> </h1>
+    <div class="our_team_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team_content_container">
+              <div class="img_team_member img_member_1">
+                <div class="social_icon_team">
+                  <a href="#"><i class="fab icon_accounts_team fa-twitter"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-facebook"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="team_section_heading">
+                <h4 class="heading_name">George Oscar</h4>
+                <h1 class="heading_sm_name">Designation</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team_content_container">
+              <div class="img_team_member img_member_2">
+                <div class="social_icon_team">
+                  <a href="#"><i class="fab icon_accounts_team fa-twitter"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-facebook"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="team_section_heading">
+                <h4 class="heading_name">Harry Ken</h4>
+                <h1 class="heading_sm_name">Designation</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team_content_container">
+              <div class="img_team_member img_member_3">
+                <div class="social_icon_team">
+                  <a href="#"><i class="fab icon_accounts_team fa-twitter"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-facebook"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="team_section_heading">
+                <h4 class="heading_name">Jessica Ella</h4>
+                <h1 class="heading_sm_name">Designation</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team_content_container">
+              <div class="img_team_member img_member_4">
+                <div class="social_icon_team">
+                  <a href="#"><i class="fab icon_accounts_team fa-twitter"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-facebook"></i></a>
+                  <a href="#"><i class="fab icon_accounts_team fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="team_section_heading" style="font-size: small !important;">
+                <h4 class="heading_name">Grecery Doez</h4>
+                <h1 class="heading_sm_name">Designation</h1>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div id="footer_area">
+    <footer>
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h2 class="logo_footer">TRAV<span>ERR.</span> </h2>
+            <h3>+92 300 123456</h3>
+            <p class="para_footer">hafizaeshashahid2810@gmail.com</p>
+            <p class="para_footer">50 Jinnah Avenue, Blue Area, Islamabad, Pakistan</p>
+            <p class="para_footer_2">Connecting you with unforget-table travel experiences around the world.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="blogs_section_footer">
+              <h3 class="blogs_footer">OUR BLOGS</h3>
+              <h5 class="blog_title">12+Travel Tour in England</h5>
+              <p class="par_blogs_footer"><span><i class="fa-regular fa-clock"></i></span> Aug 14, 2024</p>
+            </div>
+            <div class="blogs_section_footer">
+              <h5 class="blog_title">18+Travel Tour in Maldives</h5>
+              <p class="par_blogs_footer"><span><i class="fa-regular fa-clock"></i></span> Aug 14, 2024</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="links_footer">
+              <h3 class="blogs_footer">Links</h3>
+              <ul class="p-0">
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Booking</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>About</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Out Team</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Testimonials</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Out Hotels</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Rooms</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Contact</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Offers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="links_footer">
+              <h3 class="blogs_footer">Company</h3>
+              <ul class="p-0">
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>About Us</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>FAQs</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Contact Us</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Privacy Policy</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Supports</a></li>
+                <li class="m-2"><a class="links_items_footer" href="#"><span><i class="fa-solid fa-angle-right"></i></span>Team & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
